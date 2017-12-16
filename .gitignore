@@ -102,3 +102,6 @@ fabric.properties
 
 # Exercism.io
 /two-fer/src/main/kotlin/.keep
+
+# Gradle Wrapper
+!gradle/wrapper/*
