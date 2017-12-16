@@ -1,0 +1,20 @@
+rootProject.name = 'kotlin'
+
+include(
+        'hello-world',
+        'two-fer',
+        'rna-transcription',
+        'pangram',
+        'hamming',
+        'gigasecond',
+        'space-age',
+        'acronym',
+        'scrabble-score',
+        'raindrops',
+        'differences-of-squares',
+        'secret-handshake',
+        'perfect-numbers',
+        'sum-of-multiples',
+        'luhn',
+        'triangle'
+)
