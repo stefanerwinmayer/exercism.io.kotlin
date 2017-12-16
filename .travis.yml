@@ -1,6 +1,12 @@
 language: java
-script:
-        - ./gradlew build
-before_install:
-- chmod +x gradle/wrapper/gradle-wrapper.jar
-        - chmod +x gradlew
+
+before_cache:
+  - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
+  - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
+cache:
+  directories:
+    - $HOME/.gradle/caches/
+    - $HOME/.gradle/wrapper/
+
+
+
