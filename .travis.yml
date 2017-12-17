@@ -7,16 +7,3 @@ cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
-
-    - '$HOME/.sonar/cache'
-
-addons:
-  sonarcloud:
-    organization: "stefanerwinmayer-github"
-    token:
-      secure: "d7fmcPmZu2SYzIHQhY6YUaOnwmmz5q4YQS9V7bk9vxeMWGnQtE/yF1m2EOrUj41NrD3FJiyvXfMvlOh2pyUJUgk2JLjxB4qxUQQ6F53mksCScdLiG0uDQaBsoeZzVtqcLU18pKoMWFHXfuGcTqUwiIM1B3ZSRb/2dSCs/svLhEKw+96KZBXy9mQbaXJkTouMj+kw36fCb48FufR5+jhP03nEZKVxhI2Ge5oqp7wUd2Pp7WnoOb1t7uDyTh6Y+MTndMmNUeeilltdvCQsnKUrwwPVUcNQrY4edesn2ym36x5UZ4sEVpzJMeKuFZO0M0CxMoElVRgiBGv+icYcobbxYRYXItC/f8k7Dj11WYsA5XgGqkDtc4ZYTCpkgfr02+RzsFVj7b1jzsh7iYHQB5U+tCg82B6BRLAVBn/6mvYu5/Bcov328ylb3/ms2ldGtI+REgNsP4uaUw//nZvYDhDJ6CaNio7VrbOrlhObZ/H7xOtWjTFzERJ9R3/G/gqSGvQJsIAiidw2cNJOGeXmh9lbQaM1SNejf/yuFi9q7ZH1StVj+LGI9tUuN9lGcjDgm1U8yKTQxWkMTBzI6aD2k+RvUR7obWE9zZqzB+0Jw8fKTaug7a8A7PsbWL6z1hTYAur9kKroshIAvEFJMAupw8zOeSQnyqgt/3qnGtuTu5gPrGY=
-
-"
-
-script:
-  - sonar-scanner
