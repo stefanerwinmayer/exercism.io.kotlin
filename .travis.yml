@@ -8,6 +8,8 @@ cache:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
 
+sudo: required
+
 addons:
   sonarcloud:
     organization: "stefanerwinmayer-github" # the key of the org you chose at step #3
