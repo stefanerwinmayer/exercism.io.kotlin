@@ -16,5 +16,6 @@ include(
         'perfect-numbers',
         'sum-of-multiples',
         'luhn',
-        'triangle'
+        'triangle',
+        'largest-series-product'
 )
